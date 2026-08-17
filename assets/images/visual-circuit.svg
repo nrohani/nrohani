@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#ffffff"/>
+<g stroke="#0a0a0a" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M40 60 H140 V120 H220"/>
+<path d="M40 150 H100 V220 H180 V260"/>
+<path d="M360 50 H260 V100 H320 V180 H240"/>
+<path d="M360 240 H280 V190"/>
+<path d="M220 120 V180 H240"/>
+<path d="M180 260 H260 V240"/>
+</g>
+<g fill="#0a0a0a">
+<rect x="34" y="54" width="12" height="12"/>
+<rect x="214" y="114" width="12" height="12"/>
+<rect x="34" y="144" width="12" height="12"/>
+<rect x="174" y="254" width="12" height="12"/>
+<rect x="354" y="44" width="12" height="12"/>
+<rect x="234" y="184" width="12" height="12"/>
+<rect x="354" y="234" width="12" height="12"/>
+</g>
+<circle cx="220" cy="150" r="26" fill="none" stroke="#0a0a0a" stroke-width="1.6"/>
+</svg>
