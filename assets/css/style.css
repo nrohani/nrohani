@@ -325,3 +325,6 @@ p { margin: 0 0 1em; }
 @media (max-width: 900px) {
   .video-grid, .social-channels { grid-template-columns: 1fr; }
 }
+
+.youtube-embed { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #111; overflow: hidden; }
+.youtube-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
