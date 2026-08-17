@@ -1,4 +1,4 @@
-# Narjes Rohani — Academic Website
+# Narjes Rohani Academic Website
 
 Static HTML/CSS/JS site for Narjes Rohani.
 
