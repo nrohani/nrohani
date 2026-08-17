@@ -35,47 +35,81 @@
   <div class="page-header">
     <p class="eyebrow">PROJECTS</p>
     <h1>Research projects</h1>
-    <p>Three phases of one throughline: using computation to understand biological and human-learning systems that are otherwise too complex, too high-dimensional, or too slow to observe directly.</p>
+    <p>Current work applies AI and machine learning to large-scale, developmental-time-resolved genomic data to understand gene regulation and epigenetics in brain disorders — building on earlier research in computational biology, cancer bioinformatics, and health data science education.</p>
   </div>
 
+  <div class="section-heading" style="margin-bottom:20px;">
+    <p class="eyebrow">CURRENT</p>
+    <h2>Neurodevelopmental &amp; psychiatric genomics</h2>
+  </div>
   <div class="cards">
     <article class="card">
-      <span class="number">PROJECT 01 · ONGOING</span>
+      <span class="number">PROGRAMME · ONGOING</span>
       <h2>Genomic &amp; epigenetic basis of neurodevelopmental and psychiatric disorders</h2>
       <div class="tag-row"><span class="tag">scRNA-seq</span><span class="tag">scATAC-seq</span><span class="tag">Bulk DNA-seq</span><span class="tag">Autism &amp; schizophrenia</span></div>
       <p><strong>Question:</strong> When during brain development, and through which regulatory DNA regions, do the genetic risk factors for autism, schizophrenia, and related conditions begin to act?</p>
-      <p><strong>Approach:</strong> Integrating gene expression (bulk and single-cell RNA), chromatin accessibility (single-cell ATAC-seq), and bulk DNA sequencing from human brain tissue across developmental stages, in the Sanders and Rinaldi labs at Oxford's IDRM.</p>
-      <p><strong>Status:</strong> Ongoing — contributing to lab preprints on spatial transcriptomics and spatiotemporal gene enrichment in autism and schizophrenia.</p>
+      <p><strong>Approach:</strong> Integrating gene expression, chromatin accessibility, and DNA sequencing from human brain tissue across developmental stages, in the Sanders and Rinaldi labs at Oxford's IDRM, and applying machine learning to age-resolved multi-omic data to trace disease-relevant gene regulation over developmental time.</p>
       <a href="publications.html">Related publications →</a>
     </article>
+  </div>
 
+  <div class="section-heading" style="margin:44px 0 20px;">
+    <h2>Selected current projects</h2>
+  </div>
+  <div class="cards three">
     <article class="card">
-      <span class="number">PROJECT 02 · ONGOING</span>
-      <h2>Enhancer discovery for therapeutic targeting</h2>
-      <div class="tag-row"><span class="tag">Functional genomics</span><span class="tag">Gene regulation</span><span class="tag">Therapeutics</span></div>
-      <p><strong>Question:</strong> Which enhancers — the non-coding DNA regions that switch nearby genes on and off — could be targeted to correct disease-associated gene expression in the brain?</p>
-      <p><strong>Approach:</strong> Combining chromatin accessibility and expression data to prioritise candidate regulatory elements linked to neurodevelopmental and psychiatric disease genes.</p>
-      <p><strong>Status:</strong> Ongoing, alongside the Therapeutic Genomics Centre's wider work on enhancer-targeted therapies at Oxford.</p>
-      <a href="about.html">More about this work →</a>
+      <h3>BrainVar programme</h3>
+      <p>International collaboration integrating single-nucleus RNA-seq, ATAC-seq, and whole-genome sequencing from human brain tissue across development, including a dedicated analysis of sex bias in gene regulation. Manuscripts in preparation.</p>
     </article>
-
     <article class="card">
-      <span class="number">PROJECT 03 · COMPLETED</span>
-      <h2>Machine learning for drug–drug interaction &amp; disease-association prediction</h2>
+      <h3>Enhancer discovery for therapeutic targeting</h3>
+      <p>Combining chromatin accessibility and expression data to prioritise candidate regulatory elements — including enhancers linked to repeat-expansion genes — for neurodevelopmental and psychiatric disease genes.</p>
+    </article>
+    <article class="card">
+      <h3>Retinoic acid &amp; cortical arealization</h3>
+      <p>Contributed computational analyses to a study identifying a retinoic acid autoregulatory loop governing prefrontal-motor cortex development, published in <em>Nature</em>.</p>
+    </article>
+    <article class="card">
+      <h3>Poison exons &amp; haploinsufficiency</h3>
+      <p>Designed and performed the computational analyses supporting a study on poison exons and haploinsufficiency mechanisms, accepted in <em>Genome Medicine</em>.</p>
+    </article>
+    <article class="card">
+      <h3>Whole-brain Perturb-seq mapping</h3>
+      <p>Contributed to genome-scale functional mapping of the mammalian brain using in vivo Perturb-seq, accepted in <em>Nature</em>.</p>
+    </article>
+    <article class="card">
+      <h3>Friedreich's ataxia (FXN/TJP2)</h3>
+      <p>Leading computational analyses for a funded study of Friedreich's ataxia, including identification of a long TJP2 transcript as a candidate contributor to disease mechanism.</p>
+    </article>
+    <article class="card">
+      <h3>Neurodegenerative disease genomics</h3>
+      <p>Computational analyses supporting collaborative studies of SBMA and RNA editing in neurodegenerative disease, in preparation for submission.</p>
+    </article>
+    <article class="card">
+      <h3>Genes, Brains &amp; Breakthroughs (PPIE)</h3>
+      <p>Principal Investigator of a public engagement project translating neurodevelopmental genomics into accessible animations for patients, families, and clinicians. See <a href="engagement.html">Public engagement →</a></p>
+    </article>
+  </div>
+
+  <div class="section-heading" style="margin:56px 0 20px;">
+    <p class="eyebrow">PAST</p>
+    <h2>Cancer &amp; computational biology · Health data science education</h2>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <span class="number">COMPLETED</span>
+      <h2>Machine learning for drug interaction &amp; cancer subtyping</h2>
       <div class="tag-row"><span class="tag">Neural networks</span><span class="tag">Matrix factorization</span><span class="tag">Bioinformatics</span></div>
-      <p><strong>Question:</strong> Can integrated similarity measures between drugs — chemical, target, and side-effect profiles — predict interactions and disease associations that haven't yet been observed clinically?</p>
-      <p><strong>Approach:</strong> Built neural-network (NDD) and integrated similarity-constrained matrix factorization (ISCMF) models, plus a semi-supervised graph-cut method for drug–disease association prediction.</p>
-      <p><strong>Status:</strong> Completed; published in <em>Scientific Reports</em> and <em>Network Modeling Analysis in Health Informatics and Bioinformatics</em>.</p>
+      <p><strong>Question:</strong> Can integrated similarity measures between drugs, and deep-clustering of tumour profiles, predict interactions and disease subtypes that haven't yet been observed clinically?</p>
+      <p><strong>Approach:</strong> Built neural-network and matrix-factorization models for drug–drug interaction prediction, and a deep-clustering approach for breast cancer molecular subtyping; contributed computational analyses on CDK4/6 inhibitor resistance in breast cancer as a research visitor at the Institute of Cancer Research, London.</p>
       <a href="tools.html">See the code →</a>
     </article>
-
     <article class="card">
-      <span class="number">PROJECT 04 · COMPLETED (PHD)</span>
+      <span class="number">COMPLETED · PHD</span>
       <h2>AI-driven insight into health data science &amp; precision medicine education</h2>
       <div class="tag-row"><span class="tag">Educational data mining</span><span class="tag">Learning analytics</span><span class="tag">Precision medicine</span></div>
       <p><strong>Question:</strong> How do students learn precision medicine and health data science concepts, and how can that process be better supported and predicted?</p>
-      <p><strong>Approach:</strong> Applied AI and educational data mining to student self-reports and performance data as part of the MRC-funded Precision Medicine Doctoral Training Programme, supervised by Dr Kobi Gal, Dr Areti Manataki, and Dr Michael Gallagher.</p>
-      <p><strong>Status:</strong> Completed — PhD, University of Edinburgh. Findings published in <em>Studies in Health Technology and Informatics</em>.</p>
+      <p><strong>Approach:</strong> Applied AI and educational data mining to student self-reports and performance data as part of the MRC-funded Precision Medicine Doctoral Training Programme, University of Edinburgh.</p>
       <a href="publications.html">Related publications →</a>
     </article>
   </div>
