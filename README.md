@@ -18,10 +18,4 @@ The Tools page has been removed from the visible site for now. The former About 
 
 ## Images
 
-Personal images should be placed in `assets/images/personal/` as:
-
-- `profile.jpg`
-- `talk.jpg`
-- `event.jpg`
-
-The gallery uses a fixed, compact image height so photographs stay readable without becoming oversized.
+The site includes selected conference, research, and public-engagement photographs in `assets/images/personal/`. The portrait used on the homepage is kept out of the Images gallery.

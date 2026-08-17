@@ -1,1 +1,1 @@
-Place personal site photographs here: profile.jpg, talk.jpg, event.jpg.
+Selected site photographs are stored in this folder and are used by the homepage and Images page.

@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0a0a0a"/>
-  <g fill="none" stroke="#f4f1ea" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M30 14c-7-2-13 3-13 10 0 2 .5 4 1.6 5.8-2.8 1.1-4.6 3.8-4.6 7 0 3.1 1.9 5.8 4.6 6.8 4.8 6.8 10.6 8.4 15.2 3.4 2.6-2.8 3.2-7.8 3.2-11.8 0-6.1-2.4-10.1-7.2-11.2Z"/>
-    <path d="M34 14c7-2 13 3 13 10 0 2-.5 4-1.6 5.8 2.8 1.1 4.6 3.8 4.6 7 0 3.1-1.9 5.8-4.6 6.8-4.8 6.8-10.6 8.4-15.2 3.4-2.6-2.8-3.2-7.8-3.2-11.8 0-6.1 2.4-10.1 7-11.2Z"/>
-    <path d="M32 13v38"/>
-    <path d="M22 22c3 1 4 3 4 6"/>
-    <path d="M42 22c-3 1-4 3-4 6"/>
-    <path d="M20 33c3-1 5 .5 6 3"/>
-    <path d="M44 33c-3-1-5 .5-6 3"/>
-    <path d="M23 43c2-1 4-.2 6 2"/>
-    <path d="M41 43c-2-1-4-.2-6 2"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Brain icon"><rect width="64" height="64" rx="12" fill="#111"/><path d="M25 18c-5 0-8 4-8 9 0 2 .7 4 2 5.5A9 9 0 0 0 15 40c0 5 4 9 9 9h3V20c-.7-1.2-1.4-2-2-2Zm14 0c5 0 8 4 8 9 0 2-.7 4-2 5.5A9 9 0 0 1 49 40c0 5-4 9-9 9h-3V20c.7-1.2 1.4-2 2-2Z" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M28 27h-5m13 0h5M28 36h-5m13 0h5M28 45h-3m14 0h3M32 20v30" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></svg>

@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Projects | Narjes Rohani</title>
-<meta name="description" content="Research projects by Narjes Rohani spanning neurodevelopmental genomics, computational drug discovery, and AI for health data science education.">
+<title>Research | Narjes Rohani</title>
+<meta name="description" content="Research by Narjes Rohani on the molecular mechanisms of brain disorders, developmental multi-omics, regulatory genomics, and therapeutic target discovery.">
 <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
@@ -17,57 +17,36 @@
     <a class="brand" href="../index.html"><span class="mark"></span>Narjes Rohani</a>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     <nav class="nav">
-        <a href="../index.html">Home</a>
-        <a href="projects.html" class="active">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="news.html">News</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="engagement.html">Public engagement</a>
-        <a href="cv.html">CV</a>
-        <a href="images.html">Images</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <a href="../index.html">Home</a>
+      <a href="projects.html" class="active">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="news.html">News</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="engagement.html">Public engagement</a>
+      <a href="cv.html">CV</a>
+      <a href="images.html">Images</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </div>
 </header>
 
 <main class="page container">
   <div class="page-header">
-    <p class="eyebrow">PROJECTS</p>
-    <h1>Research projects</h1>
-    <p>My research combines computational genomics, multi-omics, and machine learning to understand disease mechanisms and move from genetic association toward actionable regulatory biology.</p>
+    <p class="eyebrow">RESEARCH</p>
+    <h1>Understanding brain disorders at the level of mechanism</h1>
+    <p>My research is centred on understanding how genetic variation, regulatory state, cell identity, and developmental timing interact to produce brain disorders. I work across common and rare neurodevelopmental and psychiatric conditions, using large-scale multi-omic data from human brain tissue to trace disease mechanisms and identify therapeutic opportunities.</p>
   </div>
 
   <div class="cards">
     <article class="card">
       <span class="number">01 · CURRENT</span>
       <h2>Brain disorders and therapeutic target discovery</h2>
-      <div class="tag-row"><span class="tag">Multi-omics</span><span class="tag">Brain tissue</span><span class="tag">Gene regulation</span><span class="tag">Common &amp; rare disorders</span></div>
-      <p><strong>Question:</strong> How do genetic risk and regulatory state interact across developmental time to produce brain disorders, and which molecular mechanisms are most amenable to therapeutic intervention?</p>
-      <p><strong>Approach:</strong> Integrate transcriptomic, epigenomic, chromatin-accessibility, and DNA-sequencing data from human brain tissue across developmental stages and cell types. Use computational genomics and machine learning to map disease-associated regulatory programs and prioritise candidate cis-regulatory elements.</p>
-      <p><strong>Translational direction:</strong> Connect mechanistic inference to functional perturbation, including CRISPRa/i, to test whether regulatory elements can be leveraged as therapeutic entry points and ultimately support precision medicine strategies for brain disorders.</p>
-      <a href="publications.html">Related publications →</a>
+      <div class="tag-row"><span class="tag">Multi-omics</span><span class="tag">Human brain tissue</span><span class="tag">Regulatory genomics</span><span class="tag">Common &amp; rare disorders</span></div>
+      <p><strong>Research question:</strong> How do genetic risk and regulatory state interact across developmental time to create vulnerable cell states and disease phenotypes, and which mechanisms are sufficiently specific and tractable to become therapeutic targets?</p>
+      <p><strong>Approach:</strong> Integrate transcriptomic, epigenomic, chromatin-accessibility, and DNA-sequencing data across developmental stages and cell types. Computational genomics and machine learning are used to connect disease-associated variants to regulatory programs, identify candidate <strong>cis-regulatory elements</strong>, and determine when and where disease-associated molecular changes emerge.</p>
+      <p><strong>Therapeutic direction:</strong> Move from statistical association to functional mechanism by prioritising regulatory elements for experimental perturbation, including <strong>CRISPRa/i</strong>. The longer-term aim is to make <strong>precision medicine for brain disorders</strong> more feasible by linking an individual’s genetic variation to the specific regulatory mechanisms that can be targeted.</p>
+      <a href="publications.html">See related publications →</a>
     </article>
-
-    <article class="card" id="earlier">
-      <span class="number">02 · EARLIER</span>
-      <h2>Computational drug &amp; disease prediction</h2>
-      <div class="tag-row"><span class="tag">Machine learning</span><span class="tag">Bioinformatics</span><span class="tag">Drug interactions</span><span class="tag">Cancer subtyping</span></div>
-      <p><strong>Focus:</strong> Earlier research centred on developing computational models for biomedical prediction, with a particular emphasis on extracting clinically relevant signal from high-dimensional molecular and drug-related data.</p>
-      <p><strong>Examples:</strong> Neural-network and matrix-factorisation approaches for drug–drug interaction prediction, semi-supervised approaches for drug–disease association, and deep-clustering methods for breast-cancer molecular subtyping.</p>
-      <p><strong>Why it matters:</strong> These projects established the computational and bioinformatics foundation that now supports my work in multi-omic brain disease research.</p>
-      <a href="https://github.com/nrohani">Code &amp; publications →</a>
-    </article>
-
-    <article class="card">
-      <span class="number">PROJECT 03 · COMPLETED</span>
-      <h2>Machine learning for drug–drug interaction &amp; disease-association prediction</h2>
-      <div class="tag-row"><span class="tag">Neural networks</span><span class="tag">Matrix factorization</span><span class="tag">Bioinformatics</span></div>
-      <p><strong>Question:</strong> Can integrated similarity measures between drugs — chemical, target, and side-effect profiles — predict interactions and disease associations that haven't yet been observed clinically?</p>
-      <p><strong>Approach:</strong> Built neural-network (NDD) and integrated similarity-constrained matrix factorization (ISCMF) models, plus a semi-supervised graph-cut method for drug–disease association prediction.</p>
-      <p><strong>Status:</strong> Completed; published in <em>Scientific Reports</em> and <em>Network Modeling Analysis in Health Informatics and Bioinformatics</em>.</p>
-      <a href="https://github.com/nrohani">See the code →</a>
-    </article>
-
   </div>
 </main>
 
@@ -76,7 +55,7 @@
     <strong>Narjes Rohani</strong>
     <div class="footer-links">
       <a href="mailto:narjes.rohani@paediatrics.ox.ac.uk">Email</a>
-      <a href="https://scholar.google.com/citations?user=2zoKXHUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?user=2zoKXHUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
       <a href="https://github.com/nrohani" target="_blank" rel="noopener">GitHub</a>
     </div>
   </div>
