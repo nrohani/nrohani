@@ -3,31 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Projects | Dr. Narjes Rohani</title>
-<meta name="description" content="Research projects by Dr. Narjes Rohani spanning neurodevelopmental genomics, computational drug discovery, and AI for health data science education.">
+<title>Projects | Narjes Rohani</title>
+<meta name="description" content="Research projects by Narjes Rohani spanning neurodevelopmental genomics, computational drug discovery, and AI for health data science education.">
 <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 <header class="site-header">
   <div class="container nav-wrap">
-    <a class="brand" href="../index.html"><span class="mark"></span>Dr. Narjes Rohani</a>
+    <a class="brand" href="../index.html"><span class="mark"></span>Narjes Rohani</a>
     <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
     <nav class="nav">
-      <a href="../index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html" class="active">Projects</a>
-      <a href="tools.html">Tools</a>
-      <a href="publications.html">Publications</a>
-      <a href="news.html">News</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="engagement.html">Public engagement</a>
-      <a href="cv.html">CV</a>
-      <a href="images.html">Images</a>
-    </nav>
+        <a href="../index.html">Home</a>
+        <a href="projects.html" class="active">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="news.html">News</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="engagement.html">Public engagement</a>
+        <a href="cv.html">CV</a>
+        <a href="images.html">Images</a>
+        <a href="contact.html">Contact</a>
+      </nav>
   </div>
 </header>
 
@@ -35,89 +34,46 @@
   <div class="page-header">
     <p class="eyebrow">PROJECTS</p>
     <h1>Research projects</h1>
-    <p>Current work applies AI and machine learning to large-scale, developmental-time-resolved genomic data to understand gene regulation and epigenetics in brain disorders — building on earlier research in computational biology, cancer bioinformatics, and health data science education.</p>
+    <p>My research combines computational genomics, multi-omics, and machine learning to understand disease mechanisms and move from genetic association toward actionable regulatory biology.</p>
   </div>
 
-  <div class="section-heading" style="margin-bottom:20px;">
-    <p class="eyebrow">CURRENT</p>
-    <h2>Neurodevelopmental &amp; psychiatric genomics</h2>
-  </div>
   <div class="cards">
     <article class="card">
-      <span class="number">PROGRAMME · ONGOING</span>
-      <h2>Genomic &amp; epigenetic basis of neurodevelopmental and psychiatric disorders</h2>
-      <div class="tag-row"><span class="tag">scRNA-seq</span><span class="tag">scATAC-seq</span><span class="tag">Bulk DNA-seq</span><span class="tag">Autism &amp; schizophrenia</span></div>
-      <p><strong>Question:</strong> When during brain development, and through which regulatory DNA regions, do the genetic risk factors for autism, schizophrenia, and related conditions begin to act?</p>
-      <p><strong>Approach:</strong> Integrating gene expression, chromatin accessibility, and DNA sequencing from human brain tissue across developmental stages, in the Sanders and Rinaldi labs at Oxford's IDRM, and applying machine learning to age-resolved multi-omic data to trace disease-relevant gene regulation over developmental time.</p>
+      <span class="number">01 · CURRENT</span>
+      <h2>Brain disorders and therapeutic target discovery</h2>
+      <div class="tag-row"><span class="tag">Multi-omics</span><span class="tag">Brain tissue</span><span class="tag">Gene regulation</span><span class="tag">Common &amp; rare disorders</span></div>
+      <p><strong>Question:</strong> How do genetic risk and regulatory state interact across developmental time to produce brain disorders, and which molecular mechanisms are most amenable to therapeutic intervention?</p>
+      <p><strong>Approach:</strong> Integrate transcriptomic, epigenomic, chromatin-accessibility, and DNA-sequencing data from human brain tissue across developmental stages and cell types. Use computational genomics and machine learning to map disease-associated regulatory programs and prioritise candidate cis-regulatory elements.</p>
+      <p><strong>Translational direction:</strong> Connect mechanistic inference to functional perturbation, including CRISPRa/i, to test whether regulatory elements can be leveraged as therapeutic entry points and ultimately support precision medicine strategies for brain disorders.</p>
       <a href="publications.html">Related publications →</a>
     </article>
-  </div>
 
-  <div class="section-heading" style="margin:44px 0 20px;">
-    <h2>Selected current projects</h2>
-  </div>
-  <div class="cards three">
-    <article class="card">
-      <h3>BrainVar programme</h3>
-      <p>International collaboration integrating single-nucleus RNA-seq, ATAC-seq, and whole-genome sequencing from human brain tissue across development, including a dedicated analysis of sex bias in gene regulation. Manuscripts in preparation.</p>
+    <article class="card" id="earlier">
+      <span class="number">02 · EARLIER</span>
+      <h2>Computational drug &amp; disease prediction</h2>
+      <div class="tag-row"><span class="tag">Machine learning</span><span class="tag">Bioinformatics</span><span class="tag">Drug interactions</span><span class="tag">Cancer subtyping</span></div>
+      <p><strong>Focus:</strong> Earlier research centred on developing computational models for biomedical prediction, with a particular emphasis on extracting clinically relevant signal from high-dimensional molecular and drug-related data.</p>
+      <p><strong>Examples:</strong> Neural-network and matrix-factorisation approaches for drug–drug interaction prediction, semi-supervised approaches for drug–disease association, and deep-clustering methods for breast-cancer molecular subtyping.</p>
+      <p><strong>Why it matters:</strong> These projects established the computational and bioinformatics foundation that now supports my work in multi-omic brain disease research.</p>
+      <a href="https://github.com/nrohani">Code &amp; publications →</a>
     </article>
-    <article class="card">
-      <h3>Enhancer discovery for therapeutic targeting</h3>
-      <p>Combining chromatin accessibility and expression data to prioritise candidate regulatory elements — including enhancers linked to repeat-expansion genes — for neurodevelopmental and psychiatric disease genes.</p>
-    </article>
-    <article class="card">
-      <h3>Retinoic acid &amp; cortical arealization</h3>
-      <p>Contributed computational analyses to a study identifying a retinoic acid autoregulatory loop governing prefrontal-motor cortex development, published in <em>Nature</em>.</p>
-    </article>
-    <article class="card">
-      <h3>Poison exons &amp; haploinsufficiency</h3>
-      <p>Designed and performed the computational analyses supporting a study on poison exons and haploinsufficiency mechanisms, accepted in <em>Genome Medicine</em>.</p>
-    </article>
-    <article class="card">
-      <h3>Whole-brain Perturb-seq mapping</h3>
-      <p>Contributed to genome-scale functional mapping of the mammalian brain using in vivo Perturb-seq, accepted in <em>Nature</em>.</p>
-    </article>
-    <article class="card">
-      <h3>Friedreich's ataxia (FXN/TJP2)</h3>
-      <p>Leading computational analyses for a funded study of Friedreich's ataxia, including identification of a long TJP2 transcript as a candidate contributor to disease mechanism.</p>
-    </article>
-    <article class="card">
-      <h3>Neurodegenerative disease genomics</h3>
-      <p>Computational analyses supporting collaborative studies of SBMA and RNA editing in neurodegenerative disease, in preparation for submission.</p>
-    </article>
-    <article class="card">
-      <h3>Genes, Brains &amp; Breakthroughs (PPIE)</h3>
-      <p>Principal Investigator of a public engagement project translating neurodevelopmental genomics into accessible animations for patients, families, and clinicians. See <a href="engagement.html">Public engagement →</a></p>
-    </article>
-  </div>
 
-  <div class="section-heading" style="margin:56px 0 20px;">
-    <p class="eyebrow">PAST</p>
-    <h2>Cancer &amp; computational biology · Health data science education</h2>
-  </div>
-  <div class="cards">
     <article class="card">
-      <span class="number">COMPLETED</span>
-      <h2>Machine learning for drug interaction &amp; cancer subtyping</h2>
+      <span class="number">PROJECT 03 · COMPLETED</span>
+      <h2>Machine learning for drug–drug interaction &amp; disease-association prediction</h2>
       <div class="tag-row"><span class="tag">Neural networks</span><span class="tag">Matrix factorization</span><span class="tag">Bioinformatics</span></div>
-      <p><strong>Question:</strong> Can integrated similarity measures between drugs, and deep-clustering of tumour profiles, predict interactions and disease subtypes that haven't yet been observed clinically?</p>
-      <p><strong>Approach:</strong> Built neural-network and matrix-factorization models for drug–drug interaction prediction, and a deep-clustering approach for breast cancer molecular subtyping; contributed computational analyses on CDK4/6 inhibitor resistance in breast cancer as a research visitor at the Institute of Cancer Research, London.</p>
-      <a href="tools.html">See the code →</a>
+      <p><strong>Question:</strong> Can integrated similarity measures between drugs — chemical, target, and side-effect profiles — predict interactions and disease associations that haven't yet been observed clinically?</p>
+      <p><strong>Approach:</strong> Built neural-network (NDD) and integrated similarity-constrained matrix factorization (ISCMF) models, plus a semi-supervised graph-cut method for drug–disease association prediction.</p>
+      <p><strong>Status:</strong> Completed; published in <em>Scientific Reports</em> and <em>Network Modeling Analysis in Health Informatics and Bioinformatics</em>.</p>
+      <a href="https://github.com/nrohani">See the code →</a>
     </article>
-    <article class="card">
-      <span class="number">COMPLETED · PHD</span>
-      <h2>AI-driven insight into health data science &amp; precision medicine education</h2>
-      <div class="tag-row"><span class="tag">Educational data mining</span><span class="tag">Learning analytics</span><span class="tag">Precision medicine</span></div>
-      <p><strong>Question:</strong> How do students learn precision medicine and health data science concepts, and how can that process be better supported and predicted?</p>
-      <p><strong>Approach:</strong> Applied AI and educational data mining to student self-reports and performance data as part of the MRC-funded Precision Medicine Doctoral Training Programme, University of Edinburgh.</p>
-      <a href="publications.html">Related publications →</a>
-    </article>
+
   </div>
 </main>
 
 <footer class="footer">
   <div class="container footer-wrap">
-    <strong>Dr. Narjes Rohani</strong>
+    <strong>Narjes Rohani</strong>
     <div class="footer-links">
       <a href="mailto:narjes.rohani@paediatrics.ox.ac.uk">Email</a>
       <a href="https://scholar.google.com/citations?user=2zoKXHUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
