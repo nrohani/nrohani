@@ -294,3 +294,34 @@ p { margin: 0 0 1em; }
 @media (max-width: 900px) {
   .showcase-grid, .example-row { grid-template-columns: 1fr; }
 }
+
+
+/* ---------- public engagement video showcase ---------- */
+.video-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.video-card { border: 1px solid var(--line); background: var(--card); overflow: hidden; }
+.video-link { display: block; text-decoration: none; }
+.video-frame { aspect-ratio: 16 / 9; background: linear-gradient(135deg, #111 0%, #31332f 100%); position: relative; display: grid; place-items: center; overflow: hidden; }
+.video-frame::after { content: ''; position: absolute; inset: 12px; border: 1px solid rgba(255,255,255,.18); }
+.video-frame-crispr { background: radial-gradient(circle at 28% 30%, #575b53 0, #222 38%, #101010 100%); }
+.video-frame-epigenetics { background: radial-gradient(circle at 68% 28%, #62645e 0, #24251f 38%, #101010 100%); }
+.video-frame-variants { background: radial-gradient(circle at 50% 70%, #545851 0, #252722 38%, #101010 100%); }
+.video-play { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; background: rgba(255,255,255,.95); color: #111; font-size: 16px; padding-left: 3px; position: relative; z-index: 2; box-shadow: 0 8px 26px rgba(0,0,0,.22); }
+.video-copy { padding: 18px 18px 20px; }
+.video-copy .eyebrow { margin-bottom: 8px; }
+.video-copy h3 { margin-bottom: 8px; font-size: 1.02rem; }
+.video-copy p { font-size: .9rem; }
+.video-watch { font-family: var(--mono); font-size: .75rem; text-decoration: none; }
+.video-watch:hover { text-decoration: underline; }
+.social-channels { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
+.social-channel { display: flex; align-items: center; gap: 12px; padding: 14px 16px; border: 1px solid var(--line); background: var(--bg); text-decoration: none; }
+.social-channel:hover { background: var(--bg-soft); text-decoration: none; }
+.social-icon { width: 34px; height: 34px; display: grid; place-items: center; flex: none; }
+.social-icon svg { width: 26px; height: 26px; display: block; }
+.social-youtube { color: #111; }
+.social-instagram { color: #111; }
+.social-tiktok { color: #111; }
+.social-channel strong { display: block; font-size: .88rem; font-weight: 600; }
+.social-channel small { display: block; margin-top: 2px; color: var(--muted); font-size: .72rem; line-height: 1.4; }
+@media (max-width: 900px) {
+  .video-grid, .social-channels { grid-template-columns: 1fr; }
+}
