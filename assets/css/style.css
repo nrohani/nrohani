@@ -328,3 +328,24 @@ p { margin: 0 0 1em; }
 
 .youtube-embed { position: relative; width: 100%; aspect-ratio: 16 / 9; background: #111; overflow: hidden; }
 .youtube-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; display: block; }
+
+.pub-status { font-size: .82rem; margin: .35rem 0 .45rem; letter-spacing: .02em; }
+
+/* Homepage outreach icons */
+.outreach-card .card-icon {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 18px;
+  display: grid;
+  place-items: center;
+}
+.outreach-card .card-icon svg {
+  width: 38px;
+  height: 38px;
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.55;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.outreach-card h3 { margin-top: 0; }
