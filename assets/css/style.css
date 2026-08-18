@@ -155,6 +155,28 @@ p { margin: 0 0 1em; }
 .number { font-family: var(--mono); color: var(--faint); font-size: .78rem; letter-spacing: .04em; }
 .card p { color: var(--muted); }
 .card a { font-family: var(--mono); font-size: .8rem; }
+
+.home-card-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 14px;
+  color: var(--accent, var(--ink));
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--bg-soft);
+}
+
+.home-card-icon svg {
+  width: 23px;
+  height: 23px;
+  display: block;
+}
+
+.showcase-card {
+  min-height: 205px;
+}
 .tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px; }
 .tag {
   font-family: var(--mono); font-size: .68rem; letter-spacing: .03em; text-transform: uppercase;
@@ -331,21 +353,27 @@ p { margin: 0 0 1em; }
 
 .pub-status { font-size: .82rem; margin: .35rem 0 .45rem; letter-spacing: .02em; }
 
-/* Homepage outreach icons */
-.outreach-card .card-icon {
-  width: 42px;
-  height: 42px;
-  margin-bottom: 18px;
-  display: grid;
-  place-items: center;
+
+/* ---------- visual polish: compact academic iconography ---------- */
+.page-title-row { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 10px; }
+.page-title-icon { width: 42px; height: 42px; flex: 0 0 42px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; background: var(--bg-soft); color: var(--ink); margin-top: 2px; }
+.page-title-icon svg { width: 22px; height: 22px; display: block; }
+.feature-panel { display: grid; grid-template-columns: .9fr 1.1fr; gap: 26px; align-items: stretch; margin: 34px 0 38px; }
+.feature-panel .feature-media { min-height: 240px; border: 1px solid var(--line); background: var(--bg-soft); overflow: hidden; }
+.feature-panel .feature-media img { width: 100%; height: 100%; min-height: 240px; display: block; object-fit: cover; object-position: center; }
+.feature-panel .feature-copy { padding: 26px 28px; border: 1px solid var(--line); background: var(--bg-soft); display: flex; flex-direction: column; justify-content: center; }
+.feature-panel .feature-copy h2 { margin-bottom: 10px; }
+.card-icon { width: 36px; height: 36px; display: grid; place-items: center; color: var(--ink); margin-bottom: 14px; border: 1px solid var(--line); border-radius: 50%; background: var(--bg-soft); }
+.card-icon svg { width: 19px; height: 19px; display: block; }
+.list-mark { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--ink); background: var(--bg-soft); margin-bottom: 12px; }
+.list-mark svg { width: 18px; height: 18px; display: block; }
+.news-feature { margin: 6px 0 30px; }
+.news-feature img { width: 100%; height: 220px; object-fit: cover; display: block; border: 1px solid var(--line); }
+.news-feature figcaption { font-family: var(--mono); color: var(--muted); font-size: .68rem; margin-top: 8px; }
+@media (max-width: 760px) {
+  .feature-panel { grid-template-columns: 1fr; }
+  .feature-panel .feature-media img, .feature-panel .feature-media { min-height: 210px; }
+  .news-feature img { height: 190px; }
+  .page-title-row { gap: 12px; }
+  .page-title-icon { width: 38px; height: 38px; flex-basis: 38px; }
 }
-.outreach-card .card-icon svg {
-  width: 38px;
-  height: 38px;
-  fill: none;
-  stroke: var(--accent);
-  stroke-width: 1.55;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-.outreach-card h3 { margin-top: 0; }

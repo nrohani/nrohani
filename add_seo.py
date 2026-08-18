@@ -136,7 +136,7 @@ for rel, meta in pages.items():
 
 # Update README dash styling to avoid em dash.
 readme = root / 'README.md'
-readme.write_text(readme.read_text(encoding='utf-8').replace('Narjes Rohani — Academic Website', 'Narjes Rohani Academic Website'), encoding='utf-8')
+readme.write_text(readme.read_text(encoding='utf-8').replace('Narjes Rohani  Academic Website', 'Narjes Rohani Academic Website'), encoding='utf-8')
 
 # Fix a couple of remaining visible name inconsistencies in footer/brand while preserving publication author emphasis.
 for rel in ['pages/publications.html']:
